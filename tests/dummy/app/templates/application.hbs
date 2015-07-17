@@ -1,3 +1,6 @@
-<h2 id="title">Welcome to Ember.js</h2>
-
+<nav>
+  {{#link-to 'cookies'}}Cookies{{/link-to}}
+  {{#link-to 'cupcakes'}}Cupcakes{{/link-to}}
+  <button id="goBack" {{action 'smartGoBack'}}>Go Back</button>
+</nav>
 {{outlet}}

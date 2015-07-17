@@ -1,25 +1,24 @@
-# Ember-smart-go-back
-
-This README outlines the details of collaborating on this Ember addon.
+# ember-smart-go-back
+Go back to the application root if history wants to redirect out of the Ember app.
 
 ## Installation
+`npm install --save-dev @pk4media/ember-smart-go-back`
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+## Usage
 
-## Running
+Include the `ApplicaitonRouteMixin` in your application route.
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+```
+import Ember from 'ember';
+import GoBackMixin from 'ember-smart-go-back/mixins/application-route';
 
-## Running Tests
+export default Ember.Route.extend(GoBackMixin, {
 
-* `ember test`
-* `ember test --server`
+});
+```
 
-## Building
+Then whenever you want the smart go back behavior simply send the action ```smartGoBack```.
 
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+```
+  <button {{action 'smartGoBack'}}>Go Back</button>
+```

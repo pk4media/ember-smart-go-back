@@ -1,7 +1,7 @@
 {
-  "name": "ember-smart-go-back",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "name": "@pk4media/ember-smart-go-back",
+  "version": "1.0.0",
+  "description": "Smart go back behavior",
   "directories": {
     "doc": "doc",
     "test": "tests"
