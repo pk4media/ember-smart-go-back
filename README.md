@@ -2,7 +2,7 @@
 Go back to the application root if history wants to redirect out of the Ember app.
 
 ## Installation
-`npm install --save-dev @pk4media/ember-smart-go-back`
+`npm install --save-dev ember-smart-go-back`
 
 ## Usage
 

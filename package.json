@@ -1,5 +1,5 @@
 {
-  "name": "@pk4media/ember-smart-go-back",
+  "name": "ember-smart-go-back",
   "version": "1.0.0",
   "description": "Smart go back behavior",
   "directories": {
@@ -11,11 +11,11 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "http://github.com/pk4media/ember-smart-go-back",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Steven Ferguson",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
